@@ -17,6 +17,10 @@ function Login(){
                     <button type="submit"> Ingresar </button>
                 </form>
             </div>
+            <div className="container__register">
+                <p> ¿Todavía no tenés una cuenta? </p>
+                <a href="#"> Crear cuenta </a>
+            </div>
         </div>
         </div>
     );
