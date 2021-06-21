@@ -12,7 +12,9 @@ function Login(){
             </div>
             <div className="login">
                <form>
+                   <label>Usuario</label>
                     <input type="text" name="user" placeholder="Usuario" /> 
+                   <label>Contraseña</label>
                     <input type="password" name="psw" placeholder="Contraseña"/>
                     <button type="submit"> Ingresar </button>
                 </form>

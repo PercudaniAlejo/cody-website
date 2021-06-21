@@ -14,7 +14,7 @@ body {
 .column__carrousel {
   width: 60vw;
   height: 100%;
-  background-color: #e93b81;
+  background: linear-gradient(90deg, #e93b81, #ffe5e2);
   float: left;
 }
 
@@ -44,10 +44,14 @@ body {
   top: 25%;
 }
 
-.login input,
-button {
+.login input {
   border: none;
   display: block;
+  background: #ffe5e2;
+  width: 300px;
+  padding: 10px 10px;
+  margin: 10px;
+  border-bottom: 2px solid #b6c9f0;
 }
 
 /* .App-logo {
