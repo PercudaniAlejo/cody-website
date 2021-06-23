@@ -4,6 +4,7 @@ import Home from './home.js'
 function App() {
   return (<div>
     <Home />
+    <p>HOLA</p>
     </div>);
 }
 
