@@ -1,0 +1,52 @@
+.App,
+.main {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.container__login {
+  height: 80%;
+  margin-top: 100px !important;
+}
+
+.titleCody {
+  font-size: calc(3.2rem + 1.5vw);
+}
+.subtitleCody {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.column__carrousel {
+  width: 100%;
+  height: 270%;
+  /* background-color: #d06aff; */
+  background: linear-gradient(180deg, #d06aff, #ff81ff);
+}
+
+.column__login {
+  background-color: #ffe5e2;
+  width: 800px;
+}
+
+.form-group > .form-control {
+  margin: 20px;
+  padding: 15px;
+  border: none;
+  width: 80%;
+}
+
+.form-group > .btn {
+  margin-top: 40px;
+  height: 50px;
+  width: 140px;
+}
+
+.container__carrousel {
+  margin-top: 5%;
+}
+.container__carrousel img {
+  width: 80%;
+  height: 35em;
+}
