@@ -45,7 +45,7 @@ function Carrousel(){
 
         </div>
         <div class="carousel-item">
-          <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/8D34/production/_111984163_gettyimages-515168000.jpg" class="d-block w-100" alt="..." />
+          <img src="" class="d-block w-100" alt="..." />
 
         </div>
       </div>
