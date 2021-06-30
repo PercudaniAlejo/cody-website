@@ -1,34 +1,10 @@
 import React from "react";
-import {Carousel} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 function Carrousel(){
   return (
-    // <Carousel>
-    //     <Carousel.Item interval={1000}>
-    //         <img
-    //             className="d-block"
-    //             src="https://i.blogs.es/6c558d/luna-400mpx/1366_2000.jpg"
-    //             alt="First slide"
-    //         />
-    //     </Carousel.Item>
-    //     <Carousel.Item interval={1000}>
-    //         <img
-    //             className="d-block"
-    //             src="https://cdnb.artstation.com/p/assets/images/images/015/691/891/large/azzeddin-douakha-shot2.jpg?1549282785"
-    //             alt="Second slide"
-    //         />
-    //     </Carousel.Item>
-    //     <Carousel.Item interval={1000}>
-    //         <img
-    //             className="d-block"
-    //             src="https://ichef.bbci.co.uk/news/640/cpsprodpb/8D34/production/_111984163_gettyimages-515168000.jpg"
-    //             alt="Third slide"
-    //         />
-    //     </Carousel.Item>
-    // </Carousel>
-    <div className="App p-5">
+    <div className="App p-5 d-flex justify-content-center align-items-center">
     <div className="container p-5">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">

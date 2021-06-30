@@ -1,9 +1,10 @@
 import React from 'react'
+import imageChat from '../../img/chatbot-foto-main.png';
 
 function Login(){
     return(
-        <div className="column__login d-flex justify-content-center align-items-center m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div className="container__login w-100">
+        <div className="column__login d-flex flex-column m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div className="container__login w-100 d-flex flex-column justify-content-center">
             <div className="login__header">
                 <div className="login__header__container">
                     <h1 className="titleCody"> Cody! </h1>
@@ -27,8 +28,15 @@ function Login(){
                 <p> ¿Todavía no tenés una cuenta? </p>
                 <a href="#"> Crear cuenta </a>
             </div>
+
+            </div>
+            <div className="container__image__chatbot w-100">
+                <div className="image__chatbot">
+                    <img src={imageChat} alt="imagen"/>
+                </div>
+            </div>
         </div>
-        </div>
+        
     );
 }
 
