@@ -45,7 +45,7 @@ function Carrousel(){
 
         </div>
         <div class="carousel-item">
-          <img src="" class="d-block w-100" alt="..." />
+          <img src="https://www.lucushost.com/blog/wp-content/uploads/2020/01/que-es-un-bot.png" class="d-block w-100" alt="..." />
 
         </div>
       </div>

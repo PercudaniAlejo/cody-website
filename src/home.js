@@ -5,8 +5,8 @@ import './components/Home/home-initial.css'
 
 function Home(){
     return(
-        <div className="App">
-            <div className="main d-flex p-0 m-0">
+        <div className="App container-fluid m-0 p-0">
+            <div className="main row d-flex container-fluid p-0 m-0 ">
                 <HomeLeft />
                 <Login />
             </div>

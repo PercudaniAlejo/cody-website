@@ -2,8 +2,8 @@ import React from 'react'
 
 function Login(){
     return(
-        <div className="column__login row justify-content-center align-items-center m-0">
-        <div className="container__login row align-item-end">
+        <div className="column__login d-flex justify-content-center align-items-center m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="container__login w-100">
             <div className="login__header">
                 <div className="login__header__container">
                     <h1 className="titleCody"> Cody! </h1>
