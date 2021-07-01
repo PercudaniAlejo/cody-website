@@ -3,7 +3,7 @@ import imageChat from '../../img/chatbot-foto-main.png';
 
 function Login(){
     return(
-        <div className="column__login d-flex flex-column m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="column__login d-flex flex-column p-0 m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div className="container__login w-100 d-flex flex-column align-items-center justify-content-center">
             <div className="login__header">
                 <div className="login__header__container">
