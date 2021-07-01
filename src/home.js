@@ -3,8 +3,10 @@ import HomeLeft from './components/Home/home-carrousel'
 import Login from './components/Home/home-login'
 import './components/Home/home-initial.css'
 
+
 import TeamWorkIMG from './components/Home_Page3/TeamWork_image';
 import SobreNosotros from './components/Home_Page3/SobreNosotros';
+import ContactMain from './components/Home_Page4/contactenos-main';
 
 function Home(){
     return(
@@ -16,6 +18,9 @@ function Home(){
             <div className="container__aboutUs__main main row d-flex container-fluid p-0">
                 <TeamWorkIMG />
                 <SobreNosotros />
+            </div>
+            <div className="container__contact__main main row d-flex justify-content-center container-fluid p-0">
+                <ContactMain />
             </div>
         </div>
     );

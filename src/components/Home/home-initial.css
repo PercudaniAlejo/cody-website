@@ -32,14 +32,16 @@
   /* width: 800px; */
 }
 
-.form-group > .form-control {
-  margin: 20px;
-  padding: 15px;
-  border: none;
-  width: 80%;
+.login > form > .form-group {
+  margin: 40px;
 }
 
-.form-group > .btn {
+.form-group > .form-control-login {
+  padding: 15px;
+  border: none;
+}
+
+.form-group > .btnLogin {
   margin-top: 40px;
   height: 50px;
   width: 140px;
@@ -52,6 +54,11 @@
 
 .login {
   padding: 100px 0 100px 0;
+  width: 80%;
+}
+
+.login > .form-group {
+  width: 80%;
 }
 
 .parrafo__aboutCody {
@@ -59,8 +66,9 @@
   font-size: 1.25rem;
 }
 
-.container__aboutUs__main {
-  margin: 9em 0 0 0;
+.container__aboutUs__main,
+.container__contact__main {
+  margin: 7.5em 0 0 0;
 }
 
 .container__aboutUs {
@@ -71,4 +79,36 @@
 
 .imageTeamWork > img {
   width: 65%;
+}
+
+.container__contact {
+  width: 60%;
+  background: linear-gradient(180deg, #d06aff, #ff81ff);
+  border-radius: 10%;
+}
+
+.form-control-contact {
+  padding: 0.8em;
+  margin-bottom: 2em;
+}
+.form-contact {
+  padding: 50px;
+}
+
+.title__contact {
+  margin-bottom: 50px;
+}
+
+.form-contact > .form-group {
+  width: 80%;
+}
+
+.textareaContact {
+  max-height: 200px;
+  margin-bottom: 2em;
+}
+
+.btnContact {
+  width: 30%;
+  float: right;
 }
