@@ -32,7 +32,7 @@
   /* width: 800px; */
 }
 
-.login > form > .form-group {
+.login > form > .formGroup__login {
   margin: 40px;
 }
 
@@ -53,11 +53,10 @@
 }
 
 .login {
-  padding: 100px 0 100px 0;
   width: 80%;
 }
 
-.login > .form-group {
+.login > .formGroup__login {
   width: 80%;
 }
 
@@ -98,7 +97,7 @@
   margin-bottom: 50px;
 }
 
-.form-contact > .form-group {
+.form-contact > .formGroup__login {
   width: 80%;
 }
 

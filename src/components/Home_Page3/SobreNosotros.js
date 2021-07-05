@@ -1,5 +1,4 @@
 import React from 'react'
-import imageTeamWork from '../../img/chatbot-foto-main.png';
 
 function SobreNosotros() {
     return(
