@@ -47,6 +47,10 @@
   width: 140px;
 }
 
+.container__image__chatbot {
+  margin-top: 50px;
+}
+
 .container__carrousel img {
   width: 80%;
   height: 35em;
@@ -148,6 +152,9 @@
   border-radius: 10%;
   width: 60%;
   padding: 50px 50px 50px 50px;
+  -webkit-box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
 }
 
 .container__fotoPerfil > .fotoPerfil > img {
@@ -180,7 +187,13 @@
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+.container__newAccount {
+  -webkit-box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 11px 28px -15px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
   /* PERFIL */
   .container__info__perfil,
   .container__newAccount {
@@ -225,6 +238,7 @@
   }
 
   /* SOBRE NOSOTROS */
+
   .container__aboutUs__main {
     margin: 2em 0 4em 0;
   }
@@ -234,6 +248,10 @@
     padding: 50px 0 50px 0;
   }
 
+  .container__image__chatbot > .image__chatbot > img,
+  .imageTeamWork > img {
+    width: 85%;
+  }
   /* CONTACTO */
   .container__contact {
     padding: 0;

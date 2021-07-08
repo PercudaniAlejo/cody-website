@@ -10,7 +10,7 @@ export default class Login extends Component {
     render() {
     return(
         <div className="column__login d-flex flex-column p-0 m-0 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div className="container__login d-none w-100  flex-column align-items-center justify-content-around">
+            <div className="container__login d-flex w-100  flex-column align-items-center justify-content-around">
                 <div className="login__header">  
                     <LoginHeaderTitle />
                 </div>
@@ -25,13 +25,13 @@ export default class Login extends Component {
                 </div>
             </div>
 
-            <div className="container__empezarChatear d-flex">
+            <div className="container__empezarChatear d-none">
                 <IniciarChat />
             </div>
 
             <div className="container__image__chatbot w-100">
                 <div className="image__chatbot">
-                    <img src={imageChat} alt="imagen"/>
+                    <img src="https://www.proprofschat.com/chatbot/new-ui/img/chatbot.png" alt="imagen"/>
                 </div>
             </div>
 
