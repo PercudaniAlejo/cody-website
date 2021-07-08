@@ -49,7 +49,7 @@ export default class FormLogin extends Component {
                         name="psw" placeholder="Contraseña" /> 
             </div>
             <div className="formGroup__login form-group">
-                <input type="submit" className ="btnLogin btn btn-success left" value="Ingresar" />
+                <input type="submit" className ="btnLogin btn btn-primary left" value="Ingresar" />
                 {/* <button className="btnLogin btn btn-success left" type="submit"> Ingresar </button> */}
             </div>
         </form> 

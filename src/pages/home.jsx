@@ -23,9 +23,9 @@ function Home(){
             <div className="container__contact__main main row d-flex justify-content-center container-fluid p-0 m-0">
                 <ContactMain />
             </div>
-            <div className="container__footer__main d-flex justify-content-center container-fluid p-0">
+            {/* <div className="container__footer__main d-flex justify-content-center container-fluid p-0">
                 <Footer /> 
-            </div>
+            </div> */}
         </div>
     );
 }

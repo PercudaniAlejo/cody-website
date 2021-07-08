@@ -111,3 +111,146 @@
   width: 30%;
   float: right;
 }
+
+.fotoCody > img {
+  width: 70%;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.btnEmpezarChat__container,
+.btnLogOut__container,
+.btnVerCuenta__container {
+  width: 100%;
+  height: 8em;
+}
+
+.btnEmpezarChat {
+  height: 65px;
+}
+
+/* PAGINA PERFIL */
+.container__header__text > a > p {
+  font-size: 4.5rem;
+}
+.container__header__text > h5 {
+  font-size: 2.5rem;
+}
+
+.container__info {
+  margin-top: 20px;
+}
+
+.container__info__perfil {
+  background: linear-gradient(180deg, #d06aff, #ff81ff);
+  border-radius: 10%;
+  width: 60%;
+  padding: 50px 50px 50px 50px;
+}
+
+.container__fotoPerfil > .fotoPerfil > img {
+  width: 65%;
+}
+
+.container__datosActuales > .form-group > input[type="text"] {
+  margin-bottom: 30px;
+}
+
+.container__cambiarPSW > .form-group [name="pswNueva"] {
+  margin: 25px 0 25px 0;
+}
+
+.btn_aceptarNuevaPSW {
+  margin-top: 20px;
+}
+
+.btn_aceptarNuevaPSW > button {
+  width: 40%;
+}
+
+.cambiar__psw {
+  margin-top: 25px;
+}
+
+.btnEmpezarChat__container > a,
+.btnVerCuenta__container > a,
+.btnLogOut__container > a {
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* PERFIL */
+  .container__info__perfil,
+  .container__newAccount {
+    width: 100%;
+    border-radius: 0%;
+  }
+  .container__cambiarPSW {
+    width: 100% !important;
+  }
+  .container__headerPerfil {
+    justify-content: center !important;
+  }
+  .fotoPerfil {
+    margin-top: 20px;
+  }
+
+  /* CREAR CUENTA */
+  .login__newAccount > form {
+    width: 100%;
+  }
+
+  /* CARROUSEL */
+  .carousel-item > img {
+    height: 250px;
+  }
+
+  .container__carrousel {
+    align-items: flex-start !important;
+    height: 40vh;
+    background-color: #ffe5e2;
+  }
+  .column__carrousel {
+    padding: 0;
+    border-radius: 0;
+  }
+  .container__carrousel > .App > .container {
+    padding: 0;
+  }
+
+  .aboutCody__container {
+    display: none;
+  }
+
+  /* SOBRE NOSOTROS */
+  .container__aboutUs__main {
+    margin: 2em 0 4em 0;
+  }
+  .container__aboutUs {
+    border-radius: 0;
+    background-color: #ffe5e2 !important;
+    padding: 50px 0 50px 0;
+  }
+
+  /* CONTACTO */
+  .container__contact {
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .form-contact {
+    padding: 0;
+  }
+  .container__contact > form {
+    background-color: #ffe5e2 !important;
+  }
+
+  .btnEmpezarChat__container > a,
+  .btnVerCuenta__container > a,
+  .btnLogOut__container > a {
+    width: 80%;
+  }
+}
