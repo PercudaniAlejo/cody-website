@@ -55,5 +55,4 @@ export default class FormLogin extends Component {
         </form> 
         )
     }
-
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import NewAccountContainer from "../components/NewAccount/formNewAccount"
+import NewAccountContainer from "../components/NewAccount/formNewAccount.js"
 
 
-const mainNewAccount = () => {
+    const mainNewAccount = () => {
     return (
         <div className = "newAccount d-flex align-items-center justify-content-center flex-column">
             <NewAccountContainer />

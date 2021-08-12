@@ -31,7 +31,7 @@ export default class Login extends Component {
 
             <div className="container__image__chatbot w-100">
                 <div className="image__chatbot">
-                    <img src="https://www.proprofschat.com/chatbot/new-ui/img/chatbot.png" alt="imagen"/>
+                    <img src={imageChat} alt="imagen"/>
                 </div>
             </div>
 

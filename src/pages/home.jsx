@@ -7,8 +7,6 @@ import TeamWorkIMG from '../components/Home_Page3/TeamWork_image';
 import SobreNosotros from '../components/Home_Page3/SobreNosotros';
 import ContactMain from '../components/Home_Page4/contactenos-main';
 
-import Footer from '../components/FOOTER/footer'
-
 function Home(){
     return(
         <div className="App container-fluid m-0 p-0">
@@ -23,9 +21,7 @@ function Home(){
             <div className="container__contact__main main row d-flex justify-content-center container-fluid p-0 m-0">
                 <ContactMain />
             </div>
-            {/* <div className="container__footer__main d-flex justify-content-center container-fluid p-0">
-                <Footer /> 
-            </div> */}
+
         </div>
     );
 }

@@ -5,8 +5,6 @@ import DatosActuales from '../components/profile/datosActuales.jsx'
 import FotoPerfil from '../components/profile/fotoPerfil.jsx'
 import CambiarContraseña from '../components/profile/cambiarContraseña.jsx'
 
-import Footer from '../components/FOOTER/footer'
-
 export default class Profile extends Component {
     render(){
         return(
@@ -30,7 +28,6 @@ export default class Profile extends Component {
                         </div>
                     </div>
                 </div>
-                {/* <Footer /> */}
             </div>
         );
     }

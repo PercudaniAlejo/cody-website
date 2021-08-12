@@ -8,6 +8,7 @@ import './components/NewAccount/newAccout.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Footer from './components/FOOTER/footer'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
